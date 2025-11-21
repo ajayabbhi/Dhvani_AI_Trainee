@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 
+#shape detection
 def detect_shape(approx):
     sides = len(approx)
     if sides == 3:
